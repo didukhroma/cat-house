@@ -1,21 +1,24 @@
 .header {
-  padding: 20px 0;
+  color: var(--orange-color);
+  padding: 8px;
 }
-
-.nav-list {
+.nav-link {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.67;
+  color: inherit;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
+.nav-link::before {
+  content: '';
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+  display: inline-block;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  background-image: url('../img/logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
 }

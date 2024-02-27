@@ -1,0 +1,35 @@
+.hero {
+  padding-bottom: 48px;
+}
+.hero-list-link {
+  position: relative;
+}
+.hero-list-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+.hero-list-link:hover,
+.hero-list-link:focus {
+}
+.hero-list-wrapper {
+  border-radius: 16px;
+
+  overflow: hidden;
+}
+.hero-list-description {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  padding: 12px 20px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+
+  color: var(--white-color);
+  background-color: var(--background-color);
+}
